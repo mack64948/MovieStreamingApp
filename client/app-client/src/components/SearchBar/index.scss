@@ -3,43 +3,6 @@ $header-bg-color: pink;
 $navlink-height: 100px;
 $navlink-width: 200px;
 
-a{
-    text-decoration: none;
-    color: black;
-}
-
-header{
-
-    width: 100%;
-    height: $header-height;
-    background-color: $header-bg-color;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
- 
-
-    .header-container{
-        width: 90%;
-        border-radius: 20px;
-
-        background-color: violet;
-        color: darkmagenta;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-
-    }
-}
-
-.header-title{
-    flex: 0 0 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;   
-}
-
-
 .search-bar{
     background-color: violet;
     flex: 0 0 400px;
@@ -100,15 +63,4 @@ header{
         }
         
     }
-}
-
-.slider-container{
-    width: 90%;
-    margin: 0 auto;
-    border-radius: 20px;
-
-    background-color: violet;
-    color: darkmagenta;
-    display: flex;
-    justify-content: space-between;
 }
